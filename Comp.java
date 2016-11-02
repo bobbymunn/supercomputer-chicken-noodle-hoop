@@ -16,11 +16,13 @@ public class Comp{
     String number = scan.nextLine();
     
     if(number.equals ("1")){
-    
-    } 
+         for (int i = 1; i <= 1000000; i ++) {
+            System.out.print(i + " ");
+        } 
     else if(number.equals ("2")){
-        
-    }
+         for (int i = 0; i <= 1000000; i +=5) {
+              System.out.print(i + " ");
+         }
     else if(number.equals ("3") ){
 
     for(int i = 100; i >= 0; i--){
